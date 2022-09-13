@@ -38,7 +38,7 @@ namespace Course
                     list.Add(rectangle);
                 }
 
-                else if(character == 'c')
+                else
                 {
 
                     Console.WriteLine("Radius?: ");
@@ -48,11 +48,6 @@ namespace Course
                     Circle circle = new Circle(color, radius);
 
                     list.Add(circle);
-                }
-
-                else
-                {
-                    Console.WriteLine("This shape not exists in options!!");
                 }
 
             }
